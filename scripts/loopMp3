@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Creates a loopable mp3. 
+# Example: loopMp3 input.wav output.mp3
+
+mkdir loop_gapless
+cp $1 loop_gapless/start.wav
+cp $1 loop_gapless/mid.wav
+cp $1 loop_gapless/end.wav
+cd loop_gapless
+lame -b 128 -h --nogap start.wav mid.wav end.wav
+cp mid.mp3 ../$2
+cd ..
+rm -rf loop_gapless

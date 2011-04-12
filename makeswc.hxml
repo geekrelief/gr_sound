@@ -1,0 +1,6 @@
+-swf grhaxe.swc
+-swf-version 10
+gr.sound.SampleInfo
+gr.sound.SampleTrackManager
+gr.sound.SampleTrackNode
+gr.HaxeMemory

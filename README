@@ -1,0 +1,3 @@
+geekrelief's SampleTrackManager - a sound manager for Flash written in haXe using the Memory API and SampleDataEvent
+
+Check out the test sample in audio_test.  The samples used are an mp3 and a wave file that have been embedded into swfs.
